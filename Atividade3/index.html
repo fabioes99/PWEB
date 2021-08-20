@@ -11,8 +11,32 @@
 <body style="background-color: whitesmoke;">
 
     <div style="background-color: white; height: 50px; width: 100%;box-shadow: 2px 2px 4px  black ; position: fixed;
-    top: 0;"> <div style="margin-top: 5px; margin-left: 10px;">  Fabio Esferra Simoes <span style="text-align: right;"> Login </span></div></div>
-
+    top: 0;">  
+     
+     <div class="row">
+      <div class="col" style="padding-top: 0.4rem; margin-left: 1rem; ">
+        Fabio Esferra Simoes
+        <button type="button" class="btn btn-outline-secondary" onclick="window.location='https://github.com/fabioes99/PWEB'">  GitHub</button>
+      </div>
+      <div class="col" style="margin-top: 00.4rem;">
+        <div class="dropdown">
+          <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+            <li><a class="dropdown-item active" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-auto" style="margin-right: 1rem; margin-top: 0.3rem;">
+        <button type="button" class="btn btn-outline-info" onclick="alert('Ainda não foi habilitada essa função!');"> Login </button>   <button type="button" class="btn btn-primary" style="margin-left: 1rem ;">Sign-Up</button>
+      </div>
+    </div>
+    </div>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="margin-top:80px; ">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -137,6 +161,24 @@
       <li>  Alguns desenvolvedores acham que a abordagem de design padrão para o desenvolvimento é preferível à liberdade que as estruturas de back-end JavaScript não definidas oferecem.</li>
     </ul>
 
+    <hr>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">@</span>
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="e-mail" aria-label="e-mail">
+      <span class="input-group-text">@</span>
+      <input type="text" class="form-control" placeholder="outlook.com" aria-label="outlook.com">
+    </div>
+
+    <div class="input-group" style="margin-bottom: 2rem; height: 350px;"> 
+      <textarea class="form-control" aria-label="With textarea" ></textarea>
+    </div>
+
+    <button type="button" class="btn btn-success" style="margin-bottom: 2rem; ">Comment</button>
+   
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
