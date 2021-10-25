@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    var pessoa = new Object();
+    pessoa.nome = "Ford";
+    pessoa.sobrenome = "Mustang";
+    pessoa.ano = 1969;
+
+
+    pessoa["nome"] = "Ford";
+    pessoa["sobrenome"] = "Mustang";
+    pessoa["ano"] = 1969;
+
+
+    var nomepropriedade = "nome";
+    var nomepropriedade2 = "sobrenome";
+    var nomepropriedade3 = "ano";
+
+
+    pessoa[nomepropriedade] = "ford";
+  </script>
+</body>
+
+</html>
