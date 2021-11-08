@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: rubik,helvetica,arial,sans-serif;
+}
+
+#container {
+  position: relative;
+  margin: 0;
+  display: table;
+  width: 100%;
+  height: 100vh;
+
+}
+
+#blue-pill {
+  position: absolute;
+  font-size: 32px;
+  left: 37.3%;
+  top: 57%;
+  color: white;
+}
+
+#red-pill {
+  position: absolute;
+  font-size: 32px;
+  left: 58%;
+  top: 57%;
+  color: white;
+}
+
+#red-pill input {
+  width: 40px;
+}
+
+#blue-pill input {
+  width: 40px;
+}
+
+#frase {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+
+img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: url('./morpheus.jpg') no-repeat center ;
+  object-fit: fill;
+  position: absolute;
+}
+
+h1 {
+  max-width: 480px;
+  text-align: center;
+  margin: 60px auto;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+}
+
+h1::after {
+  content: '|';
+  opacity: 1;
+  margin-left: 5px;
+  display: inline-block;
+  animation: blink .7s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}

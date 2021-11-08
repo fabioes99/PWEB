@@ -1,0 +1,35 @@
+* {
+  text-shadow: 0 0 0.2em #008000, 0 0 0.2em #070e07,
+        0 0 0.2em rgb(21, 90, 61)
+}
+
+
+body {
+  background-color: #1C1C1C;
+  color: green;
+  font-family: rubik,helvetica,arial,sans-serif;
+}
+
+header {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  background-image: url("./Matrix-capa.jpg");
+  margin-bottom: 30px;
+  height: 150px;
+  object-fit: fill;
+  color: white;
+  
+}
+
+#img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  object-fit: fill;
+}
+

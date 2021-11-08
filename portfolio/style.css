@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: rubik,helvetica,arial,sans-serif;
+}
+
+img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  position: absolute;
+  background: url('./Nv2.gif') no-repeat center ;
+  animation-duration: 3s;
+  animation-name: slidein;
+} 
+
